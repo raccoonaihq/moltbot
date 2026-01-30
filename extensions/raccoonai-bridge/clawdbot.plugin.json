@@ -1,0 +1,22 @@
+{
+  "id": "raccoonai-bridge",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "webhookUrl": {
+        "type": "string",
+        "description": "RaccoonAI server URL for inbound messages (e.g., http://localhost:3838/messaging/inbound)"
+      },
+      "raccoonApiUrl": {
+        "type": "string",
+        "description": "RaccoonAI API base URL for fetching credentials (e.g., http://localhost:3838)"
+      },
+      "enabled": {
+        "type": "boolean",
+        "description": "Enable/disable the bridge",
+        "default": true
+      }
+    }
+  }
+}

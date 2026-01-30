@@ -409,6 +409,8 @@ importers:
 
   extensions/open-prose: {}
 
+  extensions/raccoonai-bridge: {}
+
   extensions/signal: {}
 
   extensions/slack: {}

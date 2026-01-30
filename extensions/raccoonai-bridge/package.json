@@ -1,0 +1,11 @@
+{
+  "name": "@moltbot/raccoonai-bridge",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Moltbot bridge for RaccoonAI - forwards messages to RaccoonAI and sends responses back",
+  "moltbot": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
